@@ -1,3 +1,6 @@
+Welcome. Thanks for checking.
+[sssss](https://dariuszps.github.io/jako-/)
+
 # Frontend Mentor - Huddle landing page with single introductory section
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
