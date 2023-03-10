@@ -1,0 +1,99 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    padding: 30px;
+}
+
+main {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.left {
+    width: 55%
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 600;
+    width: 700px;
+    font-size: 64px;
+}
+
+.body {
+    width: 60%;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+button {
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    border: none;
+    width: 200px;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 1px 10px black;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.sociale {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+svg {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    scale: 105%;
+}
+
+svg:hover {
+    cursor: pointer;
+    color: white;
+    fill: hsl(300, 69%, 71%);
+}
